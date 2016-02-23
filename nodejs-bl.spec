@@ -9,7 +9,7 @@
 
 Name:		%{?scl_prefix}nodejs-bl
 Version:	1.0.0
-Release:	1%{?dist}
+Release:	2%{?dist}
 Summary:	Buffer List: collect buffers and access with a standard readable Buffer interface, streamable too!
 Url:		https://github.com/rvagg/bl
 Source0:	https://registry.npmjs.org/%{npm_name}/-/%{npm_name}-%{version}.tgz
@@ -57,5 +57,8 @@ node test/test.js | faucet
 %doc README.md LICENSE.md
 
 %changelog
+* Sun Feb 14 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 1.0.0-2
+- rebuilt
+
 * Fri Aug 14 2015 Zuzana Svetlikova <zsvetlik@redhat.com> - 1.0.0-1
 - Initial build
